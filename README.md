@@ -1,4 +1,4 @@
-# Future Carbon Credit DAO/Later to be LLC Carbon-Tinlake Contracts
+# Future Carbon Credit Token Family ==> Carbon-Tinlake Contracts
 Open Source implementation of the Carbon-Tinlake in Solidity.  This repository contains the core contracts of Carbon-Tinlake.
 
 Carbon-Tinlake is a set of smart contracts that allows companies and individuals to use tokenized non-fungible real-world assets as collateral to obtain liquidity. 
