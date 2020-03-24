@@ -1,4 +1,4 @@
-# Tinlake Deployment
+# Carbon-Tinlake Deployment
 A Tinlake Deployment happens with bash scripts and seth.
 
 ## Deploy Config File
