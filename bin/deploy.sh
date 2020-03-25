@@ -3,7 +3,7 @@
 BIN_DIR=${BIN_DIR:-$(cd "${0%/*}"&&pwd)}
 
 source $BIN_DIR/util/util.sh
-message Start Tinlake deployment
+message Start Carbon-Tinlake deployment
 
 cd $BIN_DIR
 CONFIG_FILE=$1
@@ -39,7 +39,7 @@ message Finalize Deployment
 seth send $ROOT_CONTRACT 'prepare(address,address,address)' $LENDER_DEPLOYER $BORROWER_DEPLOYER $GOVERNANCE
 seth send $ROOT_CONTRACT 'deploy()'
 
-success_msg "Tinlake Deployment Finished"
+success_msg "Carbon-Tinlake Deployment Finished"
 success_msg "Deployment File: $(realpath $DEPLOYMENT_FILE)"
 
 #touch $DEPLOYMENT_FILE
